@@ -1,0 +1,128 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+section{
+width: 100%;
+}
+.posts{
+    display: grid;
+    width: 100%;
+    min-height: 40rem;
+    background-image:url("../image/kas.jpg") ; 
+    background-size:cover;
+    
+    
+}.comps{
+    width: 100%;
+    min-height: 40rem;
+    background:#04091dce; 
+}ul,li{
+    list-style:none;
+}header {
+   
+    width: 100%;
+    height:2rem;
+   
+    color:#fff;
+    background:#04091dce;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    padding: 5px;
+}header div{
+    display: grid;
+    grid-template-columns:   4fr 1fr;
+    margin:0 100px 0 100px;
+}.posts menu{
+   display: flex;
+   justify-content: space-between;
+    margin:2% 125px 0 115px;
+
+}.posts hr{
+    margin:0% 125px 0 115px;
+    background: rgba(128, 128, 128, 0.329);
+    border:none;
+    width: auto;
+    height: 1px;
+    
+     
+}a{
+    text-decoration: none;
+    color:#fff;
+}.posts menu h1{
+    font-size: 30px;
+    color:salmon;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.posts menu ul{
+    display: flex;
+   padding: 15px;
+   font-family:Roboto;
+   font-weight: 400;
+}.posts menu li{
+    padding-left: 15px;
+}menu a:hover{
+    transition-duration: 0.6s;
+    color:salmon;
+}
+header img{
+    width: 20px;
+}header ul{
+    display: flex;
+
+}header li{
+    padding-left: 10px;
+}.home{
+    display: block;
+    margin:10% 125px 0 115px;
+    color:#fff;
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}.home p{
+    opacity: 50%;
+}.home li{
+    width: 10rem;
+    height: 3rem;
+    padding: 15px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 1px 2px 1px 1px #04091dbe;
+    background:salmon;
+    cursor: pointer;
+}.home li:hover{
+   transition-duration: 0.6s;
+   background:#04091dce;
+  
+}.home li a:hover{
+    color:salmon;
+}.cente{
+    
+    display: grid;
+    width: 92%;
+    margin:10% 125px 0 115px;
+    text-align: center;
+    grid-template-columns: 2fr 2fr 2fr;
+   position: absolute;
+}.cente article{
+   
+   padding: 15px 20px;
+   background: rgba(255, 255, 255, 0.253);
+   width: 20rem;
+   color:#fff;
+   font-weight: bold;
+}.content{
+    display: grid;
+    
+    grid-template-columns: 2fr 2fr 1fr;
+    margin:0 8% 0 8%;
+}.content article{
+    text-align: center;
+    width: 20rem;
+    padding: 10px;
+}.content article a{
+    color:#04091d;
+}.content article p{
+    color:#04091da2;
+}
+/* color used #04091d*/

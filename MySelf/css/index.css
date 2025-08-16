@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+section{
+    width: 100%;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+ul{
+    list-style:none;
+}.rights{
+    background:#f7786b;
+    min-height: 49rem;
+}.lefts{
+    background:#ffffff;
+    min-height: 49rem;
+}header {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}header ul{
+    display: flex;
+    padding: 10px 0;
+}header h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:30px;
+    color:#f7786b;
+}header a:hover{
+    transition-duration: 1ms;
+    border-top-style:outset;
+    border-color:#f7786b;
+    color:#f7786b; 
+}.sa{
+    border-top-style:outset;
+    border-color:#f7786b;
+    color:#f7786b;  
+}
+header li{
+    padding-left: 60px;
+    cursor: pointer;
+}menu {
+    display: flex;
+    justify-content: right;
+    padding: 30px 60px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+}menu li{
+    
+   
+    padding:10px 20px;
+    border:2px solid #fff;
+    color:#fff;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.rights nav{
+    margin: 20% 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+       font-weight: 300;
+    color:#fff;
+}.rights button{
+    border:none;
+    padding:10px 60px;
+   
+    color:#f7786b;
+    font-size: 20px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}.rights button:hover{
+    transition-duration: 0.6s;
+    border:2px solid #fff;
+    background: transparent;
+    color:#fff;
+}.stef{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin:18% 10%;
+    font-size: 20px;
+    color:#f7786b;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}.stef h3,hr{
+    color:#f7786b;
+}.stef hr{
+    width: 10rem;
+    border-color: #f7786b;
+  
+}.i img{
+ width: 20rem;
+ border-radius: 20px;
+
+}.p button{
+    border:none;
+    padding:10px 60px;
+   
+    color:#fff;
+    font-size: 20px;
+    background: #f7786b;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
