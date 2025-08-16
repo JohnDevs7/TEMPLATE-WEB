@@ -24,7 +24,3 @@ O objetivo é fornecer **modelos simples, responsivos e personalizáveis**, que 
 
 ---
 
-## 🚀 Como Usar
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/template-webs.git
