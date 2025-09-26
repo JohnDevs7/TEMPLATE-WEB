@@ -23,4 +23,5 @@ O objetivo é fornecer **modelos simples, responsivos e personalizáveis**, que 
 - **CSS3**
 
 ---
+![Made with CSS](https://i.ibb.co/HfhFmSGG/6.png) 
 
